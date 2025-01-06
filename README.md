@@ -22,6 +22,8 @@
 
 Скрипт ps_ax.sh является однострочником.
 
+echo 'PID STAT COMMAND' ; awk '{print $1,$3,$2}' /proc/*/stat  2>/dev/null | sort -n
+
 Вывод:
 
 ![image](https://github.com/user-attachments/assets/1660e657-a99c-4ce5-b1b1-2d5b5601f3d7)
