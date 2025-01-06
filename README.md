@@ -13,15 +13,15 @@
 
 Вывод команды ps ax
 
-![image](https://github.com/user-attachments/assets/94330784-1633-4742-9676-88c403204c49)
+![image](https://github.com/user-attachments/assets/94f42b93-f597-4f7f-af99-e8d0ef47fc7b)
 
 
 Колонку TTY и TIME делать не буду т.к. они бесполезны для нашего вывода.
 
 Все дынные взяты с /proc/*/stat
 
-Скрипт является однострочником.
+Скрипт ps_ax.sh является однострочником.
 
 Вывод:
 
-
+![image](https://github.com/user-attachments/assets/1660e657-a99c-4ce5-b1b1-2d5b5601f3d7)
